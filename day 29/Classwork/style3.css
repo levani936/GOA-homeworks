@@ -1,0 +1,9 @@
+#d1 {
+    text-transform: uppercase;
+}
+#d2 {
+    text-transform: capitalize;
+}
+#d3 {
+    text-transform: lowercase;
+}
