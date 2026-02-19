@@ -1,0 +1,15 @@
+#a1:hover {
+    background-color: blue;
+    color: aquamarine;
+    font-size: 30px;
+}
+#a2:active {
+    color: crimson;
+}
+#a1:visited {
+    color: purple;
+}
+
+#a2:link {
+    color: yellow;
+}

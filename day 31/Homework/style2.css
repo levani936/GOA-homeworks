@@ -1,0 +1,15 @@
+#a1 {
+    color: red;
+}
+#a1:hover {
+    color: blue;
+    font-size: 30px;
+}
+
+#a2 {
+    color: aquamarine;
+}
+#a2:hover {
+    color:aqua;
+    font-size: 35px;
+}

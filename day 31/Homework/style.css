@@ -1,0 +1,40 @@
+/* :hover - მდგომარეობა როდესაც ელემენტთან მაუსი მიგვაქვს. */
+/* :active - მდგომარეობა როცა ელემენტი ააქტიურდება მაუსის დაჭერით. */
+/* :visited - ელემენტის(ლინკის) მდგომარეობა როდესაც ის უკვე გახსნილია. */
+/* :link - მდგომარეობა როდესაც ელემენტი(ლინკი) ჯერ კიდევ არ გახსნილა. */
+.h1 {
+    color: red;
+    background-color: azure;
+}
+.h1:hover {
+    color: rgb(120, 13, 35);
+    background-color: aquamarine;
+}
+
+.h2 {
+    color: aqua;
+    background-color: teal;
+}
+.h2:active {
+    color: green;
+    background-color: aquamarine;
+}
+
+.h3 {
+    color: black;
+    background-color: bisque;
+}
+
+.h3:visited {
+    color: antiquewhite;
+    background-color: beige;
+}
+
+.h4 {
+    color: brown;
+    background-color: blue;
+}
+.h4:link {
+    color: aquamarine;
+    background-color: aqua;
+}
