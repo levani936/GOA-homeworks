@@ -1,0 +1,4 @@
+table:nth-child(even) {
+    border-collapse: collapse;
+     background-color: gray;
+}

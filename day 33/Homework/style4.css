@@ -1,0 +1,18 @@
+#d1 {
+    list-style: circle;
+}
+#d2 {
+    list-style: disc;
+}
+#d3 {
+    list-style: square;
+}
+#d4 {
+    list-style: decimal;
+}
+#d5 {
+    list-style: decimal-leading-zero;
+}
+#d6 {
+    list-style: lower-roman;
+}

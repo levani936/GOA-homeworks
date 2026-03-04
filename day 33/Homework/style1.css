@@ -1,0 +1,12 @@
+table {
+    text-align: center;
+    border-collapse: collapse;
+}
+
+#d1 {
+    background-color: rgb(8, 133, 18);
+}
+
+.paintme {
+    background-color: aqua;
+}

@@ -1,0 +1,4 @@
+table:nth-child(odd):hover {
+    background-color: blueviolet;
+    
+}
