@@ -1,0 +1,10 @@
+/* 1 - Content(შიგთავსი) */
+/* 2 - Padding(შიდა დაშორება ანუ სივრცე content და border შორის). */
+/* 3 - Border(საზღვარი padding და margin შორის.) */
+/* 4 - Margin(სივრცე ელემენტსა და სხვა ელემენტებს შორის.) */
+
+div {
+    width: 200px;
+    height: 100px;
+    background-color: bisque;
+}

@@ -1,0 +1,52 @@
+body {
+    background-color: bisque;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#boxone {
+    width: 200px;
+    height: 120px;
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+#boxtwo {
+    width: 200px;
+    height: 120px;
+    background-color: lightgreen;
+    padding: 25px;
+}
+
+#boxthree {
+    width: 200px;
+    height: 120px;
+    background-color: rgb(224, 107, 107);
+    padding: 15px;
+    border: 4px black solid;
+    margin: 30px;
+}
+
+.box {
+text-align: center;
+display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+
+    background-color: lightblue;
+
+    border-radius: 15px;     
+    box-shadow: 0 4px 10px rgba(0,0,0,3); 
+
+    text-align: center;
+    line-height: 150px;     
+    transition: 0.3s;
+}
+
+.box:hover{
+    background-color: lightcoral;
+}
+
+
