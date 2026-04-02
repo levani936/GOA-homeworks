@@ -1,0 +1,23 @@
+/*flexbox არის css-ის სისტემა,რომელიც გამოიყენება ელემენტების განლაგებისთვის ერთ ხაზში ან სვეტში. */
+/*flex-direction განსაზღვრავს, რა მიმართულებით განლაგდება ელემენტები. */
+/* justify-content მართავს ელემენტების განლაგებას მთავარ ღერძზე. */
+/* align-itemsმართავს ელემენტების განლაგებას გადამკვეთ ღერძზე. */
+/* gap ადგენს დაშორებას ელემენტებს შორის. */
+#parent {
+    height: 700px;
+    border: 3px solid black;
+    display: flex;
+    gap: 5px;
+    flex: row;
+    align-items: baseline;
+}
+.child {
+    width: 150px;
+    height: 100px;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: baseline;
+    margin: 40px;
+}
