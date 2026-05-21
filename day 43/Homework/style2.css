@@ -1,0 +1,15 @@
+.big{
+    width: 350px;
+    height: 250px;
+    background-color: lightblue;
+    position: relative;
+}
+
+.small{
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}

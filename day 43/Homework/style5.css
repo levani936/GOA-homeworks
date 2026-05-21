@@ -1,0 +1,14 @@
+.green{
+    width: 120px;
+    height: 120px;
+    background-color: green;
+}
+
+.purple{
+    width: 120px;
+    height: 120px;
+    background-color: purple;
+    position: relative;
+    top: 30px;
+    left: 40px;
+}
