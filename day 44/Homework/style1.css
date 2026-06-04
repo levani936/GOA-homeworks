@@ -1,0 +1,13 @@
+/* background-position — განსაზღვრავს ფონის სურათის მდებარეობას. */
+/* background-repeat — განსაზღვრავს გამეორდეს თუ არა ფონის სურათი. */
+/* transition ქმნის გლუვ ანიმაციას CSS თვისებების ცვლილების დროს. */
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    transition: 3s;
+}
+
+.box:hover {
+    transform: translate(-40px, -50px);
+}
