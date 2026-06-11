@@ -1,0 +1,22 @@
+body{
+    background-image: url(https://th.bing.com/th/id/R.f5771a85739c27900e6b85d862f378be?rik=wPXeVu6wtZ8GFg&pid=ImgRaw&r=0);
+    background-size: cover;
+    height: 300vh;
+    background-position: center;
+}
+#d1{
+    display: flex;
+    color: white;
+    justify-content: center;
+    margin: 50px;
+}
+#f1{
+    height: 300px;
+    width: 400px;
+    position: relative;
+    left: 550px;
+}
+#d2{
+    color: whitesmoke;
+    text-align: center;
+}
