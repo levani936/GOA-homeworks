@@ -1,7 +1,7 @@
 body{
     background-image: url(https://th.bing.com/th/id/R.f5771a85739c27900e6b85d862f378be?rik=wPXeVu6wtZ8GFg&pid=ImgRaw&r=0);
     background-size: cover;
-    height: 300vh;
+    height: 125vh;
     background-position: center;
 }
 #d1{
@@ -18,5 +18,40 @@ body{
 }
 #d2{
     color: whitesmoke;
+    text-align: center;
+}
+#h2{
+    color: white;
+    text-align: center;
+}
+#pickle{
+    color: white;
+}
+
+#yt{
+    color: white;
+    text-decoration: none;
+}
+#yt:hover{
+    color: rgb(53, 129, 53);
+    transition: 500ms;
+}
+#yt2{
+    color: white;
+    text-decoration: none;
+}
+#yt2:hover{
+    color: red;
+    transition: 500ms;
+}
+#fb{
+    color: white;
+    text-decoration: none;
+}
+#fb:hover{
+    color: rgb(79, 79, 242);
+    transition: 500ms;
+}
+#h3{
     text-align: center;
 }
