@@ -1,0 +1,116 @@
+/* ---------- PRICE ---------- */
+
+body{
+    background-color:gray;
+}
+.price-box{
+    width:90%;
+    max-width:700px;
+    margin:60px auto;
+    background:white;
+    padding:40px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 8px 18px rgba(0,0,0,.15);
+}
+
+.price-box h2{
+    color:#2E8B57;
+    margin-bottom:20px;
+}
+
+.old-price{
+    font-size:30px;
+    color:red;
+    text-decoration:line-through;
+}
+
+.new-price{
+    font-size:60px;
+    color:#2E8B57;
+    font-weight:bold;
+    margin:10px 0;
+}
+
+.offer{
+    color:#FF8C00;
+    font-weight:bold;
+    margin-bottom:25px;
+}
+
+.price-box hr{
+    margin:30px 0;
+}
+
+.price-list{
+    list-style:none;
+    text-align:left;
+    margin-top:20px;
+}
+
+.price-list li{
+    padding:12px;
+    font-size:18px;
+    border-bottom:1px solid #ddd;
+}
+
+/* ---------- HEADER ---------- */
+
+.page-header{
+    text-align:center;
+    padding:60px 20px;
+    background:linear-gradient(to right,#2E8B57,#1E90FF);
+    color:white;
+}
+
+.page-header h1{
+    font-size:48px;
+    margin-bottom:10px;
+}
+
+.page-header p{
+    font-size:20px;
+}
+
+/* ---------- NAVIGATION ---------- */
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#2E8B57;
+    padding:18px 60px;
+}
+
+.logo{
+    color:white;
+    font-size:28px;
+    font-weight:bold;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:30px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+    transition:0.3s;
+}
+
+nav ul li a:hover{
+    color:#FFD54F;
+}
+
+/* ---------- FOOTER ---------- */
+
+footer{
+    background:#2E8B57;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:60px;
+}

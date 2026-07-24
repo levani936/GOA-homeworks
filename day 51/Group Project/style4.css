@@ -1,0 +1,161 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:black;
+    color:#333;
+    line-height:1.6;
+}
+
+/* ---------- NAVIGATION ---------- */
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#2E8B57;
+    padding:18px 60px;
+}
+
+.logo{
+    color:white;
+    font-size:28px;
+    font-weight:bold;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:30px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+    transition:0.3s;
+}
+
+nav ul li a:hover{
+    color:#FFD54F;
+}
+
+/* ---------- HEADER ---------- */
+
+.page-header{
+    text-align:center;
+    padding:60px 20px;
+    background:linear-gradient(to right,#2E8B57,#1E90FF);
+    color:white;
+}
+
+.page-header h1{
+    font-size:48px;
+    margin-bottom:10px;
+}
+
+.page-header p{
+    font-size:20px;
+}
+
+/* ---------- SECTIONS ---------- */
+
+.schedule,
+.camp-dates{
+    width:90%;
+    max-width:1000px;
+    margin:50px auto;
+}
+
+.schedule h2,
+.camp-dates h2{
+    text-align:center;
+    margin-bottom:25px;
+    color:#2E8B57;
+    font-size:34px;
+}
+
+#cool {
+    text-align:center;
+    background-color:gray;
+}
+/* ---------- TABLE ---------- */
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 8px 18px rgba(0,0,0,.15);
+}
+
+th{
+    background:#2E8B57;
+    color:white;
+    padding:16px;
+    font-size:18px;
+}
+
+td{
+    padding:16px;
+    border-bottom:1px solid #ddd;
+}
+
+tr:nth-child(even){
+    background:#f7f7f7;
+}
+
+tr:hover{
+    background:#eaf7ea;
+    transition:0.3s;
+}
+
+/* ---------- FOOTER ---------- */
+
+footer{
+    background:#2E8B57;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:60px;
+}
+
+/* ---------- RESPONSIVE ---------- */
+
+@media (max-width:768px){
+
+    nav{
+        flex-direction:column;
+        gap:20px;
+        padding:20px;
+    }
+
+    nav ul{
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:15px;
+    }
+
+    .page-header h1{
+        font-size:34px;
+    }
+
+    .page-header p{
+        font-size:18px;
+    }
+
+    th,
+    td{
+        font-size:14px;
+        padding:10px;
+    }
+
+}
+
+

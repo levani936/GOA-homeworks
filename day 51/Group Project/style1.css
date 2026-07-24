@@ -1,0 +1,122 @@
+/* ---------- HOME ---------- */
+                       /* ამაზე მოვიძიეთ ინფორმაცია და background'ს ფოტოდ აქცევს */
+
+ 
+.hero{
+    height:80vh;
+    background:
+    linear-gradient(
+        rgba(120,120,120,0.4),   /* Gray at the top */
+        rgba(60,60,60,0.7),      /* Dark gray in the middle */
+        rgba(0,0,0,1)            /* Completely black at the bottom */
+    ),
+    url("../images/hero.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+body {
+    background-color: black;
+}
+
+.hero-content{
+    color:white;
+}
+
+.hero-content h1{
+    font-size:60px;
+    margin-bottom:20px;
+}
+
+.hero-content p{
+    font-size:24px;
+    margin-bottom:35px;
+}
+
+.btn{
+    background:#FF8C00;
+    color:white;
+    padding:15px 35px;
+    border-radius:10px;
+    text-decoration:none;
+    font-size:20px;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#ff6f00;
+}
+
+.features{
+    width:90%;
+    max-width:1100px;
+    margin:60px auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:30px;
+}
+
+.feature-card{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 8px 18px black;
+    transition:.3s;
+}
+
+.feature-card:hover{
+    transform:translateY(-8px);
+}
+
+.feature-card h2{
+    color:#2E8B57;
+    margin-bottom:15px;
+}
+
+/* ---------- NAVIGATION ---------- */
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#2E8B57;
+    padding:18px 60px;
+}
+
+.logo{
+    color:white;
+    font-size:28px;
+    font-weight:bold;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:30px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+    transition:0.3s;
+}
+
+nav ul li a:hover{
+    color:#FFD54F;
+}
+
+/* ---------- FOOTER ---------- */
+
+footer{
+    background:#2E8B57;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:60px;
+}
