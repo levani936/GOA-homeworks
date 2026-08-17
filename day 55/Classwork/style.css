@@ -1,0 +1,66 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 100vh;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid gray;
+    padding-bottom: 20px;
+}
+
+input{
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+#d1 {
+    width: 90%;
+    height: 40px;
+    border: none;
+    background-color: rgb(129, 129, 238);
+    color: white;
+}
+
+.d2{
+    width: 90%;
+    height: 40px;
+    background-color: white;
+    color: rgb(129, 129, 238);
+    border: 1px solid rgb(129, 129, 238);
+}
+
+#scream{
+    color: gray;
+}
+
+#faah {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    border: none;
+}
+
+#remember{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+#sigma{
+    width: 15px;
+    height: 15px;
+}
