@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* ------------------------HEADER/NAV------------------------ */
+header{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+nav{
+    display: flex;
+    gap: 25px;
+    text-align: center;
+}
+.navi{
+    text-decoration: none;
+    font-size: 25px;
+    color: red;
+}
+
+.navi:hover{
+    color: goldenrod;
+    transition: 0.2s;
+}
+
+
+/* -----------------------------MAIN----------------------------- */
+#idk{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://tse4.mm.bing.net/th/id/OIP.qgRF0iRm7DAeMv6RosQcEQHaE7?r=0&rs=1&pid=ImgDetMain&o=7&rm=3);
+    background-size: cover;
+    background-position: center;
+}
+
+#yapping{
+    justify-content: center;
+    align-items: center;
+}
+#yap1{
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 95%;
+    margin-left: 10px;
+    margin-right: 20px ;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    padding-left: 200px;
+    display: flex;
+    gap: 200px;
+    font-size: 20px;
+    text-align: justify;
+    align-items: center;
+    background-color: white;
+}
+
+#yap2{
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 95%;
+    margin-left: 10px;
+    margin-right: 20px ;
+    margin-bottom: 200px;
+    margin-top: 100px;
+    padding-left: 200px;
+    display: flex;
+    gap: 200px;
+    font-size: 20px;
+    text-align: justify;
+    align-items: center;
+    background-color: white;
+}

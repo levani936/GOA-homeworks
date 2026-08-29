@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* ------------------------HEADER/NAV------------------------ */
+header{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+nav{
+    display: flex;
+    gap: 25px;
+    text-align: center;
+}
+.navi{
+    text-decoration: none;
+    font-size: 25px;
+    color: red;
+}
+
+.navi:hover{
+    color: goldenrod;
+    transition: 0.2s;
+}
+/* -----------------------MAIN------------------------------- */
+#idk {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://tse4.mm.bing.net/th/id/OIP.qgRF0iRm7DAeMv6RosQcEQHaE7?r=0&rs=1&pid=ImgDetMain&o=7&rm=3);
+    background-size: cover;
+    background-position: center;
+}
+
+#welcome {
+    text-align: center;
+    width: 1200px;
+    height: 100px;
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+    border: 2px solid black;
+}
