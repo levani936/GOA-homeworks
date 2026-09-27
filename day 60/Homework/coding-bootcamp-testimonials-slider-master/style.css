@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: white;
+    color: #29294d;
+    overflow: hidden;
+}
+
+.testimonial {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* QUOTE */
+
+.quote-mark {
+    position: absolute;
+    left: 18%;
+    top: 20%;
+    font-size: 190px;
+    font-weight: bold;
+    color: #eeeefb;
+    line-height: 1;
+}
+
+/* TEXT */
+
+.text-box {
+    position: absolute;
+    left: 11.5%;
+    top: 28%;
+    z-index: 5;
+}
+
+.text-box p {
+    font-size: 31px;
+    line-height: 1.4;
+    letter-spacing: 0.3px;
+}
+
+.person {
+    margin-top: 38px;
+    font-size: 20px;
+}
+
+.person strong {
+    color: #242444;
+}
+
+.person span {
+    color: #c3c3d3;
+    margin-left: 8px;
+}
+
+/* IMAGE AREA */
+
+.image-area {
+    position: absolute;
+    right: 11.5%;
+    top: 16%;
+    width: 540px;
+    height: 600px;
+}
+
+/* IMAGE */
+
+#img1 {
+    position: absolute;
+    width: 540px;
+    height: 540px;
+    object-fit: cover;
+    border-radius: 4px;
+    z-index: 3;
+}
+
+/* PURPLE SHAPE */
+
+.purple-shape {
+    position: absolute;
+    width: 330px;
+    height: 330px;
+    right: -90px;
+    top: 275px;
+    background: linear-gradient(135deg, #7045c8, #8e5ee3);
+    border-radius: 0 55% 55% 0;
+}
+
+.pink-lines {
+    position: absolute;
+    right: 120px;
+    top: -55px;
+    color: #ce5b9a;
+    font-size: 85px;
+    font-weight: bold;
+}
+
+.dots {
+    position: absolute;
+    right: -80px;
+    bottom: 0;
+    color: #cf65a5;
+    font-size: 25px;
+    line-height: 0.9;
+    letter-spacing: 7px;
+}
+
+
+.buttons {
+    position: absolute;
+    left: 60px;
+    bottom: 20px;
+    width: 115px;
+    height: 58px;
+    background: white;
+    border-radius: 35px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.buttons button {
+    border: none;
+    background: none;
+    color: #8585a8;
+    font-size: 42px;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.buttons button:hover {
+    color: #6f4ac5;
+}
+.bottom-shape {
+    position: absolute;
+    width: 850px;
+    height: 250px;
+    left: -150px;
+    bottom: -170px;
+    background: #f1f1fc;
+    border-radius: 50%;
+}
