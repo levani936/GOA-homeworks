@@ -1,0 +1,17 @@
+/* display: grid; აქცევს div-ს Grid კონტეინერად */
+/* მისი შიგნით არსებული ელემენტები განლაგდება Grid-ის წესებით */
+/* grid-template-columns განსაზღვრავს სვეტების რაოდენობას და ზომას */
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.box {
+    height: 150px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
