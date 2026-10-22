@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+span{
+    width: 40px;
+    height: 40px;
+}
+main{
+    height: 500px;
+    width: 100%;
+    background-image: url(https://cdn.discordapp.com/attachments/1389208008692601006/1561419836293259374/image.png?ex=6ad6490a&is=6ad4f78a&hm=27e49905ff71aae1df04e6322cfbb46151c7e5bf729b29eeef4375dd51dc7664&);
+    background-position: center;
+    color: white;
+    display: flex;
+}
+/* linear-gradient ქმნის ვებსაიტზე ფერებს შორის გადასვლას. */
+/* border არის padding-ის საზღვარი რის შემდეგაც იწყება margin, ანუ ელემენტის გარე არეა. */
